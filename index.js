@@ -19,7 +19,7 @@ function keyHandler(e) {
     var bottomNumbers = dodger.style.bottom.replace('px','')
     var bottom = parseInt(bottomNumbers, 10)
     dodger.style.bottom = `${bottom - 1}px`
+  }
 }
-
 
 document.addEventListener('keydown', keyHandler)
