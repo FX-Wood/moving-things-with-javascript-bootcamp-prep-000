@@ -18,7 +18,7 @@ function keyHandler(e) {
   } else if (e.key === "ArrowDown") {
     var bottomNumbers = dodger.style.bottom.replace('px','')
     var bottom = parseInt(bottomNumbers, 10)
-    dodger.style.bottom = `${bottom - 1}px`
+    if (bottom > 0) {dodger.style.bottom = `${bottom - 1}px`}
   }
 }
 
