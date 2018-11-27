@@ -15,4 +15,4 @@ function keyHandler(e) {
 }
 
 
-documemt.addEventListener('keydown', keyHandler)
+document.addEventListener('keydown', keyHandler)
