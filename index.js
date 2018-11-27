@@ -12,8 +12,6 @@ function keyHandler(e) {
 
     dodger.style.left = `${left +1}px`
   }
-
-
 }
 
 
